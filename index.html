@@ -76,6 +76,68 @@
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
             </button>
+            <p class="title-form">Залиште свої дані, ми вам передзвонимо</p>
+            <form name="form-buy" class="modal-form">
+              <label for="user-name">Ім'я</label>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="user-name"
+                  name="user-name"
+                  class="modal-input"
+                />
+                <svg class="input-icon" width="18" heigt="18">
+                  <use href="./images/icons.svg#icon-person-black"></use>
+                </svg>
+              </div>
+              <label for="user-tel">Телефон</label>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="user-tel"
+                  name="user-tel"
+                  class="modal-input"
+                />
+                <svg class="input-icon" width="18" heigt="18">
+                  <use href="./images/icons.svg#icon-phone-black"></use>
+                </svg>
+              </div>
+              <label for="user-mail">Пошта</label>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="user-mail"
+                  name="user-mail"
+                  class="modal-input"
+                />
+                <svg class="input-icon" width="18" heigt="18">
+                  <use href="./images/icons.svg#icon-email-black"></use>
+                </svg>
+              </div>
+              <label for="user-text">Коментар</label>
+              <textarea
+                placeholder="Введіть текст"
+                id="user-text"
+                name="user-text"
+                class="modal-input modal-textarea"
+                cols="30"
+                rows="5"
+              ></textarea>
+              <div class="input-line check-line">
+                <input
+                  class="input-check"
+                  id="checkbox-s"
+                  name="checked"
+                  type="checkbox"
+                  checked
+                />
+                <label class="checkbox-agree" for="checkbox-s"
+                  >Погоджуюся з розсилкою та приймаю&nbsp;
+                  <a href="#">Умови договору</a></label
+                >
+              </div>
+              <button type="submit" class="form-button">Відправити</button>
+            </form>
           </div>
         </div>
       </section>
@@ -414,6 +476,23 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="wrapper-form">
+          <p class="form-text-footer">Підпишіться на розсилку</p>
+          <div class="form-footer">
+            <input
+              type="text"
+              name="input-footer"
+              class="input-footer"
+              placeholder="E-mail"
+            />
+            <button class="button-footer" type="button">
+              Підписатися
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </footer>
